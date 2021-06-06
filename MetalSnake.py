@@ -192,7 +192,6 @@ def play_game():
             for i in range(len(grenades)):
                 screen.blit(ball, (grenades[i]['ball_x'],
                                    grenades[i]['ball_y']))
-                print(shield_event, time, using_shield)
             if using_shield:
                 screen.blit(shield, snake[0])
             elif view_direction == 1:
