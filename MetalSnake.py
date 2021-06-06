@@ -44,8 +44,8 @@ def collision(c1, c2):
 # Create the game function
 def play_game():
     # Positioning variables
-    shield_pos = ((random.randint(0, 554)), random.randint(20, 448))
-    apple_pos = ((random.randint(0, 554)), random.randint(20, 448))
+    shield_pos = ((random.randint(0, 524)), random.randint(20, 418))
+    apple_pos = ((random.randint(0, 524)), random.randint(20, 418))
     snake = [(300, 300)]
 
     # Motion variables
